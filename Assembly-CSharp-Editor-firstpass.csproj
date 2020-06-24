@@ -63,10 +63,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\GitHub\Editor\ExtensionLoader.cs" />
-    <Compile Include="Assets\Plugins\GitHub\Editor\UnityAPIWrapper.cs" />
-    <None Include="Assets\Plugins\GitHub\Editor\credits.txt" />
-    <None Include="Assets\Plugins\GitHub\Editor\eula.txt" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -1,20 +1,18 @@
 ﻿<Properties StartupConfiguration="{7326F8F0-7951-3A86-5110-A45DF6602590}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/playerMovement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument=".gitignore">
     <Files>
       <File FileName="Assets/Scripts/playerMovement.cs" Line="50" Column="1" />
       <File FileName="Assets/Scripts/rotator.cs" />
+      <File FileName=".gitignore" Line="111" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="ball-wall" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Plugins" expanded="True" />
-              <Node name="Scripts" expanded="True">
-                <Node name="playerMovement.cs" selected="True" />
-              </Node>
-              <Node name="UnityHDRI" expanded="True" />
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/audreyandoy/ball-wall/.gitignore" selected="True" />
             </Node>
+            <Node name="Assets" expanded="True" />
           </Node>
         </State>
       </Pad>
