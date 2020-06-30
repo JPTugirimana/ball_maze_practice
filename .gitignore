@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿Skip to content
 Search or jump to…
 
@@ -34,6 +35,8 @@ Latest commit c7c1f3b 12 minutes ago
  1 contributor
 60 lines (49 sloc)  1020 Bytes
   
+=======
+>>>>>>> c7c1f3bb1e27b7e3c249191859317fb6f4b57ad4
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/master/Unity.gitignore
@@ -94,6 +97,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+<<<<<<< HEAD
 © 2020 GitHub, Inc.
 Terms
 Privacy
@@ -108,3 +112,5 @@ Blog
 About
  Octotree
 Login to unlock more features
+=======
+>>>>>>> c7c1f3bb1e27b7e3c249191859317fb6f4b57ad4
