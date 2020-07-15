@@ -1,8 +1,14 @@
 ﻿<Properties StartupConfiguration="{7326F8F0-7951-3A86-5110-A45DF6602590}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/rotator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/newEnemyMovement.cs">
     <Files>
-      <File FileName="Assets/Scripts/playerMovement.cs" Line="50" Column="1" />
+      <File FileName="Assets/Scripts/playerMovement.cs" Line="55" Column="9" />
       <File FileName="Assets/Scripts/rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Collectable.cs" Line="21" Column="6" />
+      <File FileName="Assets/Scripts/growCapsule.cs" Line="12" Column="1" />
+      <File FileName="Assets/Scripts/old_playerMovement.cs" Line="43" Column="10" />
+      <File FileName="Assets/Scripts/enemyMovement.cs" />
+      <File FileName="Assets/Scripts/shrinkCapsule.cs" Line="10" Column="36" />
+      <File FileName="Assets/Scripts/newEnemyMovement.cs" Line="16" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -10,7 +16,7 @@
           <Node name="ball-wall" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="rotator.cs" selected="True" />
+                <Node name="newEnemyMovement.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -20,7 +26,7 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="a07cf4da-2400-41aa-9936-a1c2bd647fee" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e686fcbb-f68a-46ba-946c-3fe73a264b90" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

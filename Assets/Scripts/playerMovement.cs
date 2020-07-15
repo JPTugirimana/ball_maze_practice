@@ -9,6 +9,10 @@ public class playerMovement : MonoBehaviour
     public Rigidbody rb;
     private int score;
     public Text scoreText;
+    public float speed;
+    public Transform cam;
+    float turnSmoothVelocity;
+    public float turnSmoothTime = 0.1f;
 
 
     // Start is called before the first frame update
@@ -16,7 +20,6 @@ public class playerMovement : MonoBehaviour
     {
         score = 0;
         setScoreText();
-       
     }
 
     // Update is called once per frame
@@ -24,10 +27,19 @@ public class playerMovement : MonoBehaviour
     {
         float moveHorizontal = Input.GetAxis("Horizontal");
         float moveVertical = Input.GetAxis("Vertical");
+        Vector3 direction = new Vector3(moveHorizontal, 0f, moveVertical).normalized;
 
-        Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+        if (direction.magnitude >= 0.1f)
+        {
+            float targetAngle = Mathf.Atan2(direction.x, direction.y) * Mathf.Rad2Deg + cam.eulerAngles.y;
+            float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
+            transform.rotation = Quaternion.Euler(0f, angle, 0f);
 
-        rb.AddForce(movement * velocity);
+            //// player movement
+            Vector3 movement = new Vector3(moveHorizontal, 0.0f, moveVertical);
+            rb.AddForce(movement * velocity);
+        }
+       
     }
 
     private void OnTriggerEnter(Collider other)
@@ -38,6 +50,13 @@ public class playerMovement : MonoBehaviour
             score += 1;
             setScoreText();
             print("Score: " + score);
+        }
+
+        if (other.gameObject.CompareTag("Grow"))
+        {
+            rb.transform.localScale += new Vector3(1f, 1f, 1f) * 2;
+            other.gameObject.SetActive(false);
+
         }
     }
 

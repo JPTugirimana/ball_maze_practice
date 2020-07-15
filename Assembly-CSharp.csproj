@@ -63,8 +63,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Collectable.cs" />
+    <Compile Include="Assets\Scripts\enemyMovement.cs" />
+    <Compile Include="Assets\Scripts\growCapsule.cs" />
+    <Compile Include="Assets\Scripts\newEnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\old_playerMovement.cs" />
     <Compile Include="Assets\Scripts\playerMovement.cs" />
     <Compile Include="Assets\Scripts\rotator.cs" />
+    <Compile Include="Assets\Scripts\shrinkCapsule.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2019.4.0f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -596,6 +602,9 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/audreyandoy/ball-wall/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>/Users/audreyandoy/ball-wall/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>/Users/audreyandoy/ball-wall/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -613,6 +622,9 @@
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>/Users/audreyandoy/ball-wall/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>/Users/audreyandoy/ball-wall/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>/Users/audreyandoy/ball-wall/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
