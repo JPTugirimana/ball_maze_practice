@@ -46,6 +46,8 @@ Latest commit c7c1f3b 12 minutes ago
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+.DS_Store
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
