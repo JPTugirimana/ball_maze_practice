@@ -14,6 +14,12 @@ public class growCapsule : Collectable
     // Update is called once per frame
     void Update()
     {
-        this.moveRotate();
+        moveRotate();
+    }
+
+    public override void moveRotate()
+    {
+        transform.Rotate(new Vector3(60, 60, 60) * Time.deltaTime);
+
     }
 }

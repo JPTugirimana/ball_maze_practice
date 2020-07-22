@@ -9,6 +9,7 @@ public class enemyMovement : MonoBehaviour
 
     public Transform target;
     public float speed = 5f;
+    public float normalizeDirection;
 
     // Start is called before the first frame update
     void Start()
@@ -17,7 +18,7 @@ public class enemyMovement : MonoBehaviour
 
         Debug.Log(name);
 
-        //normalizeDirection = (target.position - transform.position).normalized;
+        //normalizeDirection = target.position - transform.position.normalized;
 
     }
 

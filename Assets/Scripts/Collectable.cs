@@ -17,7 +17,7 @@ public class Collectable : MonoBehaviour
 
     }
 
-    public void moveRotate()
+    public virtual void moveRotate()
     {
         transform.Rotate(new Vector3(15, 30, 45) * Time.deltaTime);
 
